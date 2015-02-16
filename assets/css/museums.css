@@ -1,0 +1,117 @@
+/* MUSEUM PROFILE */
+
+.header-bg {
+	background-image: url('../img/page-museums.jpg');
+}
+
+#musnas {
+	background-image: url('../../img/profile/museum-nasional.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.list-participants {
+	border-bottom: 1px solid #eee;
+	margin: 0;
+}
+
+.list-participants.content {
+	padding: 5px 15px;
+}
+
+.list-participants > img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+
+.list-participants > a {
+	font-size: 15px;
+}
+
+.info-museum {
+	display: flex;
+}
+
+.info-museum p {
+}
+
+#map-canvas {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	flex: 1 1;
+}
+
+.additional-info {
+	margin-top: 20px;
+}
+
+.news-highlight > div, .events-highlight > div {
+	margin: 5px 0;
+}
+
+.news-item {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	padding-right: 10px;
+	box-shadow:0px 0px 0px 1px #eee inset;
+}
+
+.news-left {
+	background: #337ab7;
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+
+.news-right {
+	/* color: #ee510a; */
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.news-item:hover {
+	background: #eee;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+}
+
+.news-right > a {
+	display: block;
+	margin-top: 3px;
+}
+
+.news-right:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 7.5px 0 7.5px 10px;
+	border-color: transparent transparent transparent #337ab7;
+	line-height: 0;
+	position: absolute;
+	left: 0;
+	top: 40%;
+	margin-right: -10px;
+}
+
+.events-highlight .news-left {
+	background: #f7941d;
+}
+
+.events-highlight .news-right:after {
+	border-color: transparent transparent transparent #f7941d;
+}
+
+h3.more-info {
+	margin: 0;
+}
+
+/* END MUSEUM PROFILE */

@@ -1,0 +1,61 @@
+.header-bg {
+	background-image: url('../img/page-collections.jpg');
+}
+
+.row-colls {
+	padding: 15px;
+	border-bottom: 1px dotted #a1a1a1;
+}
+
+.row-colls:last-child {
+	border-bottom: none;
+}
+
+.row-colls:hover {
+	background: #f7f7f7;
+	cursor: pointer;
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img-mus, .img-coll {
+	height: 90px;
+	float: left;
+	margin-right: 10px;
+}
+
+.img-mus {
+	width: 90px;
+}
+
+.museum-name {
+	font-weight: bolder;
+	font-size: 15px;
+	margin: 0;
+}
+
+.museum-info {
+	font-size: 13px;
+	margin: 0px;
+}
+
+.more {
+	padding:0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90px;
+	background: #fafafa;
+}
+
+.more-item {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+}

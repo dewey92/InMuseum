@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'less-plugin-vlean-css' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'less-plugin-vlean-css', null ]
+6 verbose cache add name=undefined spec="less-plugin-vlean-css" args=["less-plugin-vlean-css",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'less-plugin-vlean-css',
+7 verbose parsed url   path: 'less-plugin-vlean-css',
+7 verbose parsed url   href: 'less-plugin-vlean-css' }
+8 silly lockFile aa3f0d6d-less-plugin-vlean-css less-plugin-vlean-css
+9 verbose lock less-plugin-vlean-css C:\Users\Dewey\AppData\Roaming\npm-cache\aa3f0d6d-less-plugin-vlean-css.lock
+10 silly lockFile aa3f0d6d-less-plugin-vlean-css less-plugin-vlean-css
+11 silly lockFile aa3f0d6d-less-plugin-vlean-css less-plugin-vlean-css
+12 verbose addNamed [ 'less-plugin-vlean-css', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 0d7bb5cf-less-plugin-vlean-css less-plugin-vlean-css@
+15 verbose lock less-plugin-vlean-css@ C:\Users\Dewey\AppData\Roaming\npm-cache\0d7bb5cf-less-plugin-vlean-css.lock
+16 silly addNameRange { name: 'less-plugin-vlean-css', range: '*', hasData: false }
+17 verbose request where is /less-plugin-vlean-css
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id d92ec78cd72dcd1f
+20 verbose url raw /less-plugin-vlean-css
+21 verbose url resolving [ 'https://registry.npmjs.org/', './less-plugin-vlean-css' ]
+22 verbose url resolved https://registry.npmjs.org/less-plugin-vlean-css
+23 verbose request where is https://registry.npmjs.org/less-plugin-vlean-css
+24 info trying registry request attempt 1 at 11:57:50
+25 http GET https://registry.npmjs.org/less-plugin-vlean-css
+26 http 404 https://registry.npmjs.org/less-plugin-vlean-css
+27 verbose headers { date: 'Wed, 04 Feb 2015 04:57:50 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-lax1432-LAX',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1423025870.478178,VS0,VE73',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Wed, 04 Feb 2015 04:57:50 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-lax1432-LAX',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1423025870.478178,VS0,VE73',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 0d7bb5cf-less-plugin-vlean-css less-plugin-vlean-css@
+30 silly lockFile 0d7bb5cf-less-plugin-vlean-css less-plugin-vlean-css@
+31 error 404 404 Not Found: less-plugin-vlean-css
+31 error 404
+31 error 404 'less-plugin-vlean-css' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.2.9200
+33 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "less-plugin-vlean-css"
+34 error cwd C:\xampp\htdocs\emuseum\assets\css
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
