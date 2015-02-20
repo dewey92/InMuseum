@@ -2,7 +2,13 @@
 	<div class="container">
 		<div class="header-bg-text">
 			<h1>MUSEUM NASIONAL</h1>
-			<p>The National Museum of Indonesia, is an archeological, historical, ethnological, and geographical museum located in Jalan Medan Merdeka Barat, Central Jakarta, right on the west side of Merdeka Square</p>
+			<div class="museum-rating">
+				<span class="star"></span>
+				<span class="star"></span>
+				<span class="star"></span>
+				<span class="star"></span>
+				<span class="star"></span>
+			</div>
 		</div>
 	</div>
 </header>
@@ -17,19 +23,28 @@
 </div>
 
 <div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<h2><small>
+				<blockquote>The National Museum of Indonesia, is an archeological, historical, ethnological, and geographical museum
+					located in Jalan Medan Merdeka Barat, Central Jakarta, right on the west side of Merdeka Square
+				</blockquote>
+			</small></h2>
+		</div>
+	</div>
 	<div class="row flex">
 		<div class="col-xs-12 col-md-4">
 			<div class="row">
 				<div class="col-md-12">
 					<div id="museum-address">
 						<h3 class="text-center">ADDRESS</h3>
-						<address style="margin:0">
+						<address>
 							<span class="fa fa-fw fa-lg fa-map-marker"></span>&nbsp; <?php echo $profile->alamat_museum; ?><br>
-							<span class="fa fa-fw fa-phone"></span>&nbsp; <?php echo $profile->telp_museum; ?><br>
-							<span class="fa fa-fw fa-fax"></span>&nbsp; <?php echo $profile->fax_museum; ?><br>
-							<span class="fa fa-fw fa-twitter"></span>&nbsp; <a href="http://twitter.com/<?php echo $profile->twitter_museum; ?>">@<?php echo $profile->twitter_museum; ?></a> <br>
-							<span class="fa fa-fw fa-link"></span>&nbsp; <a href="http://www.<?php echo $profile->url_museum; ?>">www.<?php echo $profile->url_museum; ?></a><br>
-							<span class="fa fa-fw fa-envelope"></span>&nbsp; <a href="mailto:<?php echo $profile->email_museum; ?>"><?php echo $profile->email_museum; ?></a>
+							<span class="fa fa-fw fa-lg fa-phone"></span>&nbsp; <?php echo $profile->telp_museum; ?><br>
+							<span class="fa fa-fw fa-lg fa-fax"></span>&nbsp; <?php echo $profile->fax_museum; ?><br>
+							<span class="fa fa-fw fa-lg fa-twitter"></span>&nbsp; <a href="http://twitter.com/<?php echo $profile->twitter_museum; ?>">@<?php echo $profile->twitter_museum; ?></a> <br>
+							<span class="fa fa-fw fa-lg fa-link"></span>&nbsp; <a href="http://www.<?php echo $profile->url_museum; ?>">www.<?php echo $profile->url_museum; ?></a><br>
+							<span class="fa fa-fw fa-lg fa-envelope"></span>&nbsp; <a href="mailto:<?php echo $profile->email_museum; ?>"><?php echo $profile->email_museum; ?></a>
 						</address>
 					</div>
 				</div>

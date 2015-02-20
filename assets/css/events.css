@@ -6,6 +6,14 @@
 	border-bottom: 1px solid #ddd;
 }
 
+.event-date-meta * {
+	color: inherit;
+}
+
+.event-date-meta time {
+	color: #007fa5;
+}
+
 .event-type-meta {
 	padding-top: 10px;
 	color: #999;

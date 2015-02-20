@@ -1,10 +1,10 @@
-<header class="header-bg">
+<!-- <header class="header-bg">
 	<div class="container">
 		<h1>NEWS</h1>
 		<p>Read the latest and popular news about museums across Indonesia</p>
 	</div>
-</header>
-<div class="mini-bar">
+</header> -->
+<div class="box">
 	<div class="container">
 		<ol class="breadcrumb">
 			<li><a href="#">Home</a></li>

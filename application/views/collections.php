@@ -31,7 +31,7 @@
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="searchCollections">label</label>
 									<input type="text" class="form-control input-lg" id="searchCollections" placeholder="Search collections ..." aria-describedby="helpBlock" autofocus />
-									<span class="fa fa-search form-control-feedback" aria-hidden="true"></span>
+									<span class="fa fa-lg fa-search form-control-feedback" aria-hidden="true"></span>
 									<span id="helpBlock" class="help-block">Start typing collection names, its museum, or cities</span>
 								</div>
 							</form>
@@ -44,19 +44,19 @@
 										<li><a href="#">All</a></li>
 										<li class="divider"></li>
 										<?php foreach($classifications as $row) : ?>
-											<li>
+											<li data-toggle="tooltip" data-placement="left" title="Description goes here">
 												<a href="#" title=""><?php echo $row->nama_kategori_koleksi . ' (' . rand(20,1000) . ')'; ?></a>
 											</li>
 										<?php endforeach;?>
 									</ul>
 								</div>
-								<div class="btn-group">
+								<!-- <div class="btn-group">
 									<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">View <span class="caret"></span></button>
 									<ul class="dropdown-menu" role="menu">
 										<li><a href="#">Museums</a></li>
 										<li><a href="#">Items</a></li>
 									</ul>
-								</div>
+								</div> -->
 								<div class="btn-group pull-right">
 									<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sort <span class="caret"></span></button>
 									<ul class="dropdown-menu" role="menu">
@@ -94,7 +94,7 @@
 				<div class="row-colls" onclick="location.href='<?php echo site_url(); ?>page/collections/1'">
 					<div class="row">
 						<div class="col-md-3">
-							<img src="<?php echo base_url(); ?>img/participants/bank-indonesia.jpg" class="img-mus">
+							<img src="<?php echo base_url(); ?>img/participants/museum-bank-indonesia.jpg" class="img-mus">
 							<p class="museum-name"><span class="bolder">Musuem Bank Indonesia</span></p>
 							<p class="museum-info">Jakarta Pusat</p>
 							<p class="museum-info">294 items</p>
@@ -174,47 +174,6 @@
 							<div class="more">
 								<div class="more-item">More</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3">
-				<div class="head-title">
-					<h2>Search Collections</h2>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="col-md-12 col-xs-12">
-							<form action="<?php echo site_url(); ?>" method="POST" class="form-horizontal" role="form">
-								<div class="form-group">
-									<label for="inputOnlyMuseums">by Museum</label>
-									<div class="input-group">
-										<select name="onlyMuseums" id="inputOnlyMuseums" class="form-control">
-											<option value="0" selected>All</option>
-											<?php foreach( $daftar_museum as $row ): ?>
-											<option value="<?php echo $row->id_museum; ?>"><?php echo $row->nama_museum; ?></option>
-											<?php endforeach; ?>
-										</select>
-										<div class="input-group-btn">
-											<button type="submit" class="btn btn-primary" type="button" >
-												<span class="fa fa-search"></span>
-											</button>
-										</div>
-									</div>
-								</div>
-								<div class="form-group">
-									<label for="collection-category">by Classification</label>
-									<div class="label-refine" id="collection-category">
-										<?php foreach($classifications as $row) : ?>
-											<span class="label label-default"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-												<?php echo $row->nama_kategori_koleksi . ' (' . rand(20,1000) . ')'; ?>
-											</span>
-										<?php endforeach;?>
-									</div>
-								</div>
-							</form>
 						</div>
 					</div>
 				</div>

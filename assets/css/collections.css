@@ -59,3 +59,8 @@
 	font-size: 18px;
 	text-align: center;
 }
+
+.grid-item .thumbnail:hover {
+	border: 1px solid #007fa5;
+	transition: all .25s ease-in-out;
+}

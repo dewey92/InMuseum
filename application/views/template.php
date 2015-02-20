@@ -152,7 +152,48 @@
 		</nav>
 		<div id="box-overlay"></div>
 		<nav id="quick-list">
-			<div id="wrapper-quick-list">//</div>
+			<div id="wrapper-quick-list">
+				<p>A quick access to the list of museums available on the site</p>
+				<form action="" method="POST" role="form">
+					<div class="form-group">
+						<label for="quickAccess" class="from-label sr-only">label</label>
+						<input type="text" class="form-control" id="quickAccess" placeholder="Type a museum or city ...">
+					</div>
+				</form>
+				<hr>
+				<div class="list-group">
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+				</div>
+			</div>
 			<div id="toggle-quick-list">
 				<span class="fa fa-fw fa-2x fa-institution"></span>
 				<p>Quick Access</p>
@@ -410,7 +451,7 @@
 
 		</script>
 
-		<?php if ($page == 'index' OR $page == 'collections') : ?>
+		<?php if ($page == 'collections') : ?>
 
 		<script src="<?php echo base_url() ?>assets/js/imagesloaded.pkgd.min.js"></script>
 		<script src="<?php echo base_url() ?>assets/js/masonry.pkgd.min.js"></script>

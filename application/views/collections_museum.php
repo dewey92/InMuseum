@@ -32,7 +32,7 @@
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="searchCollections">label</label>
 									<input type="text" class="form-control input-lg" id="searchCollections" placeholder="Search collections ..." aria-describedby="helpBlock" autofocus />
-									<span class="fa fa-search form-control-feedback" aria-hidden="true"></span>
+									<span class="fa fa-lg fa-search form-control-feedback" aria-hidden="true"></span>
 									<span id="helpBlock" class="help-block">Start typing collection names, its museum, or cities</span>
 								</div>
 							</form>
@@ -45,19 +45,19 @@
 										<li><a href="#">All</a></li>
 										<li class="divider"></li>
 										<?php foreach($classifications as $row) : ?>
-											<li>
+											<li data-toggle="tooltip" data-placement="left" title="Description goes here">
 												<a href="#" title=""><?php echo $row->nama_kategori_koleksi . ' (' . rand(20,1000) . ')'; ?></a>
 											</li>
 										<?php endforeach;?>
 									</ul>
 								</div>
-								<div class="btn-group">
+								<!-- <div class="btn-group">
 									<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">View <span class="caret"></span></button>
 									<ul class="dropdown-menu" role="menu">
 										<li><a href="#">Museums</a></li>
 										<li><a href="#">Items</a></li>
 									</ul>
-								</div>
+								</div> -->
 								<div class="btn-group pull-right">
 									<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sort <span class="caret"></span></button>
 									<ul class="dropdown-menu" role="menu">

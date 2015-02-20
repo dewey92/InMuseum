@@ -100,9 +100,11 @@ class Page extends CI_Controller {
 
 	function blogs( $id = null )
 	{
+		$this->load->model('m_blog');
 		$data = $this->data;
 
 		$data['page']			= 'blogs';
+		$data['tag_blog']		= $this->m_blog->getBlogTags();
 		$dataafter['content']	= $this->load->view( ($id == null) ? 'blogs' : 'blog_detail', $data, true);
 
 		$this->load->view('template', $dataafter);

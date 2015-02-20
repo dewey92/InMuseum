@@ -34,7 +34,7 @@
 								<div class="form-group has-feedback">
 									<label class="sr-only" for="searchEvents">label</label>
 									<input type="text" class="form-control input-lg" id="searchEvents" placeholder="Search events ..." aria-describedby="helpBlock" autofocus />
-									<span class="fa fa-search form-control-feedback" aria-hidden="true"></span>
+									<span class="fa fa-lg fa-search form-control-feedback" aria-hidden="true"></span>
 									<span id="helpBlock" class="help-block">Start typing event titles, cities, or museum names</span>
 								</div>
 							</form>
@@ -97,8 +97,10 @@
 						<div class="col-md-8">
 							<div class="row">
 								<div class="col-sm-12">
-									<h3>12 February - 16 February 2015</h3>
-									<h2><a href="<?php echo base_url(); ?>page/events/1">New Artifacts Found at Singosari</a></h2>
+									<div class="event-date-meta">
+										<h3><time>12 February - 16 February 2015</time></h3>
+										<h2><a href="<?php echo base_url(); ?>page/events/1">New Artifacts Found at Singosari</a></h2>
+									</div>
 									<p class="by-museum">by <a href="">Museum Nasional</a></p>
 								</div>
 							</div>
@@ -121,8 +123,9 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-xl-3 col-xl-offset-1">
-							<span class="pull-right"><a href="<?php echo base_url(); ?>page/events/1">
-									<img src="<?php echo base_url() ?>img/event/event_1.jpg" class="img-responsive">
+							<span class="pull-right">
+								<a href="<?php echo site_url(); ?>page/events/1">
+									<img src="<?php echo base_url(); ?>img/event/event_1.jpg" class="img-responsive">
 								</a>
 							</span>
 						</div>
@@ -133,8 +136,10 @@
 						<div class="col-md-8">
 							<div class="row">
 								<div class="col-sm-12">
-									<h3>Saturday, 14 February 2015</h3>
-									<h2><a href="<?php echo base_url(); ?>page/events/1">Train Prototype Workshop</a></h2>
+									<div class="event-date-meta">
+										<h3><time>Saturday, 14 February 2015</time></h3>
+										<h2><a href="<?php echo base_url(); ?>page/events/1">Train Prototype Workshop</a></h2>
+									</div>
 									<p class="by-museum">by <a href="">Museum KAI</a></p>
 								</div>
 							</div>
@@ -157,7 +162,8 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-xl-3 col-xl-offset-1">
-							<span class="pull-right"><a href="<?php echo base_url(); ?>page/events/1">
+							<span class="pull-right">
+								<a href="<?php echo site_url(); ?>page/events/1">
 									<img src="<?php echo base_url() ?>img/event/event_2.jpg" class="img-responsive">
 								</a>
 							</span>

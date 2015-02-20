@@ -13,6 +13,7 @@
 .list-participants {
 	border-bottom: 1px solid #eee;
 	margin: 0;
+	font-size: 14px;
 }
 
 .list-participants.content {
@@ -20,14 +21,41 @@
 }
 
 .list-participants > img {
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 	margin-bottom: 5px;
 	margin-right: 5px;
 }
 
 .list-participants > a {
-	font-size: 15px;
+	font-size: 16px;
+}
+
+.museum-rating {
+	background: rgba(0,0,0,0.4);
+	padding: 15px;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	font-size: 30px;
+}
+
+.museum-rating > span.star {
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	display: inline-block;
+}
+.museum-rating span.star:before {
+	content: "\f006";
+	padding-right: 5px;
+	color: #777777;
+}
+
+.museum-rating > span:hover:before,
+.museum-rating > span:hover ~ span:before {
+   content: "\f005";
+   color: #ffdb00;
+   /* position: absolute; */
 }
 
 .info-museum {
@@ -35,6 +63,10 @@
 }
 
 .info-museum p {
+}
+
+#museum-address address > span {
+	padding: 6px 0;
 }
 
 #map-canvas {

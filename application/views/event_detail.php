@@ -58,6 +58,7 @@
 					<p><span class="fa fa-fw fa-lg fa-map-marker"></span>&nbsp; Jalan Merdeka Barat No. 35, Jakarta Pusat</p>
 					<p><span class="fa fa-fw fa-lg fa-phone"></span>&nbsp; +62 857-8532-4570</p>
 				</div>
+				<div id="map-canvas" style="height: 300px"></div>
 			</div>
 			<div class="col-md-8">
 				<div class="event-detail-description">
@@ -83,3 +84,33 @@
 </div>
 
 <!-- END RIGHT -->
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script type="text/javascript">
+	var map;
+
+	function initialize() {
+		var loc = new google.maps.LatLng(-6.176402,106.82159);
+		var mapOptions = {
+			center: loc,
+			zoom: 16,
+			scrollwheel:false,
+			zoomControl : false,
+			panControl : false,
+			streetViewControl : false,
+			mapTypeControl: false,
+			overviewMapControl: false,
+			clickable: false
+		};
+
+		map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+		var marker = new google.maps.Marker({
+			position: loc,
+			map: map,
+			title: 'Event'
+		});
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>

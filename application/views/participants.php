@@ -36,14 +36,14 @@
 							<div class="form-group has-feedback">
 								<label class="sr-only" for="searchMuseums">label</label>
 								<input type="text" class="form-control input-lg" id="searchMuseums" placeholder="Search museums ..." aria-describedby="helpBlock" autofocus />
-								<span class="fa fa-search form-control-feedback" aria-hidden="true"></span>
+								<span class="fa fa-lg fa-search form-control-feedback" aria-hidden="true"></span>
 								<span id="helpBlock" class="help-block">Start typing museum names, types, or cities</span>
 							</div>
 						</form>
 					</div>
 					<div class="col-sm-2 col-sm-offset-1">
 						<div class="btn-group pull-right">
-							<button class="btn btn-lg btn-default dropdown-toggle" data-toggle="dropdown">Sort museums <span class="caret"></span></button>
+							<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Sort museums <span class="caret"></span></button>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="#">A > Z</a></li>
 								<li><a href="#">Z > A</a></li>
@@ -59,7 +59,7 @@
 				- Jakarta Pusat.
 			</p>
 			<p class="list-participants content">
-				<img src="<?php echo base_url(); ?>img/participants/bank-indonesia.jpg" alt="" />
+				<img src="<?php echo base_url(); ?>img/participants/museum-bank-indonesia.jpg" alt="" />
 				<a href="">Museum Bank Indonesia</a>
 				- Kota Tua, Jakarta Pusat.
 			</p>

@@ -71,39 +71,46 @@
 		<!-- POPULAR BLOGS -->
 		<div class="col-md-3">
 			<div class="right-right">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="head-title">
-							<h2>Search Blogs</h2>
-						</div>
-						<div class="col-md-12 col-xs-12">
-							<form action="<?php echo site_url(); ?>" method="POST" class="form-horizontal" role="form">
-								<div class="form-group">
-									<label for="inputOnlyBlogs">by Keyword</label>
-									<div class="input-group">
-										<input type="text" name="onlyBlogs" id="inputOnlyBlogs" class="form-control" placeholder="search blogs ...">
-										<div class="input-group-btn">
-											<button type="submit" class="btn btn-primary" type="button" >
-												<span class="fa fa-search"></span>
-											</button>
-										</div>
-									</div>
+				<div class="head-title">
+					<h2>Search Blogs</h2>
+				</div>
+				<form action="<?php echo site_url(); ?>" method="POST" role="form">
+					<!-- SEARCH -->
+					<div class="well">
+						<div class="form-group">
+							<label for="inputOnlyBlogs" class="control-label">by Keyword</label>
+							<div class="input-group">
+								<input type="text" name="onlyBlogs" id="inputOnlyBlogs" class="form-control" placeholder="search blogs ...">
+								<div class="input-group-btn">
+									<button type="submit" class="btn btn-primary" type="button" >
+										<span class="fa fa-search"></span>
+									</button>
 								</div>
-								<div class="form-group">
-									<label for="blogArchieve">Archieve</label>
-									<div class="input-group">
-										<ul class="list-unstyled">
-											<li><a href="#">November 2014</a></li>
-											<li><a href="#">December 2014</a></li>
-											<li><a href="#">January 2015</a></li>
-											<li><a href="#">February 2015</a></li>
-										</ul>
-									</div>
-								</div>
-							</form>
+							</div>
 						</div>
 					</div>
-				</div>
+					<!-- ARCHIVE -->
+					<div class="well">
+						<div class="form-group">
+							<label for="inputBlogArchive" class="control-label">by Archive</label>
+							<select name="blogArchive" id="inputBlogArchive" class="form-control">
+								<option value="">February 2015</option>
+								<option value="">January 2015</option>
+								<option value="">December 2014</option>
+								<option value="">November 2014</option>
+							</select>
+						</div>
+					</div>
+					<!-- TAG -->
+					<div class="well">
+						<label for="blogTag" class="control-label">by Categories</label>
+						<div id="blogTag">
+							<?php foreach($tag_blog as $row) : ?>
+								<span class="label label-default"><?php echo $row->nama_tag_blog; ?></span>
+							<?php endforeach; ?>
+						</div>
+					</div>
+				</form>
 				<hr>
 				<div class="row">
 					<div class="col-md-12">

@@ -16,23 +16,17 @@
 			<div class="fill" style="background-image:url('<?php echo base_url() ?>assets/img/home-museums.jpg');"></div>
 			<div class="carousel-caption">
 				<h1>Have a Trip to Museums?</h1>
-				<p class="big">
-					Type your destination city and find the museums nearby
+				<p>
+					Find the museums nearby
 				</p>
-				<div class="row">
-					<form action="<?php echo site_url(); ?>" method="POST" role="form">
-						<div class="input-group">
-							<div class="col-md-7">
-								<input type="text" name="museumCity" id="inputMuseumCity" class="form-control input-lg" placeholder="Type your destination city ..." autofocus />
-								<div class="input-group-btn">
-									<button type="submit" class="btn btn-lg btn-primary" type="button" >
-										<span class="fa fa-search"></span>
-									</button>
-								</div>
-							</div>
+				<form action="<?php echo site_url(); ?>" method="POST" role="form">
+					<div class="form-group wrap-form-mega">
+						<div class="wrap-icon-mega">
+							<span class="fa fa-4x fa-map-marker"></span>
 						</div>
-					</form>
-				</div>
+						<input type="text" name="museumCity" id="inputMuseumCity" class="form-control input-lg form-mega" value="Depok" placeholder="Type your destination city ..." autocomplete="off" autofocus />
+					</div>
+				</form>
 			</div>
 		</div>
 		<!-- <div class="item">
@@ -67,66 +61,131 @@
 	</a> -->
 </header>
 
-<div id="events-section">
+<!-- MUSEUMS -->
+<div class="home-section">
 	<div class="container">
-		<h1>Events</h1>
-		<!-- EVENTS -->
+		<h1>Museums near 'Depok'&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/participants">View all museums in the city &rarr;</a></small></h1>
+		<div class="row flex">
+			<div class="col-md-3 col-xs-12 flex">
+				<div class="border-inset flex-item">
+					<div class="frame">
+						<img src="<?php echo base_url() ?>img/participants/museum-bank-indonesia.jpg">
+					</div>
+					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_1.jpg)"></div> -->
+					<div class="wrap-item-caption">
+						<h4><a href="<?php echo site_url() ?>page/profile/1">Museum Bank Indonesia</a></h4>
+						<p>Jl. Pintu Besar Utara No.4, Kota Jakarta Barat, DKI Jakarta 11110</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-12 flex">
+				<div class="border-inset flex-item">
+					<div class="frame">
+						<img src="<?php echo base_url() ?>img/participants/museum-vredeburg.jpg">
+					</div>
+					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_2.jpg)"></div> -->
+					<div class="wrap-item-caption">
+						<h4><a href="<?php echo site_url() ?>page/profile/1">Museum Vredeburg</a></h4>
+						<p>Jl Jend A. Yani no 6, DIY Yogyakarta</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-12 flex">
+				<div class="border-inset flex-item">
+					<div class="frame">
+						<img src="<?php echo base_url() ?>img/participants/museum-angkut.jpg">
+					</div>
+					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_3.jpg)"></div> -->
+					<div class="wrap-item-caption">
+						<h4><a href="<?php echo site_url() ?>page/profile/1">Museum Angkut</a></h4>
+						<p>Jalan Terusan Sultan Agung No.2, Kota Batu, Jawa Timur 65311</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-xs-12 flex">
+				<div class="border-inset flex-item">
+					<div class="frame">
+						<img src="<?php echo base_url() ?>img/participants/museum-kereta-api.jpg">
+					</div>
+					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_4.jpg)"></div> -->
+					<div class="wrap-item-caption">
+						<h4><a href="<?php echo site_url() ?>page/profile/1">Museum Kereta Api</a></h4>
+						<p>Jl. Stasiun, No. 1, Ambarawa, Jawa Tengah</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- EVENTS -->
+<div class="home-section">
+	<div class="container">
+		<h1>Ongoing Events&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/events">View all events &rarr;</a></small></h1>
 		<div class="row">
-			<div class="col-md-3 col-xs-12">
-				<div class="frame">
-					<img src="<?php echo base_url() ?>img/event/event_1.jpg">
-				</div>
-				<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_1.jpg)"></div> -->
-				<div class="featured-info">
-					<h4><a href="<?php echo site_url() ?>page/events/1">Peder Balke</a></h4>
-					<p>by <span class="bolder">Museum Brawijaya</span></p>
-					<p>Date : 24 Sept - 29 Sept '14 </p>
-					<p style="margin-top:10px">
-						<span class="label label-default">#lectures</span>
-					</p>
-				</div>
-			</div>
-			<div class="col-md-3 col-xs-12">
-				<div class="frame">
-					<img src="<?php echo base_url() ?>img/event/event_2.jpg">
-				</div>
-				<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_2.jpg)"></div> -->
-				<div class="featured-info">
-					<h4><a href="<?php echo site_url() ?>page/events/1">Balinese Art Exhibition</a></h4>
-					<p>by <span class="bolder">Museum Nasional</span></p>
-					<p>Date : 26 Sept - 3 Nov '14 </p>
-					<p style="margin-top:10px">
-						<span class="label label-default">#exhibition</span>
-					</p>
+			<div class="col-sm-6 col-md-3 col-xs-12">
+				<div class="border-inset">
+					<div class="frame">
+						<img src="<?php echo base_url() ?>img/event/event_1.jpg">
+					</div>
+					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_1.jpg)"></div> -->
+					<div class="wrap-item-caption">
+						<h4><a href="<?php echo site_url() ?>page/events/1">New Artifacts Found</a></h4>
+						<p class="event-by-museum">by <span class="bolder">Museum Brawijaya</span></p>
+						<time>3 - 12 March 2015</time>
+						<p style="margin-top:10px">
+							<span class="label label-default">#seminar</span>
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-xs-12">
-				<div class="frame">
-					<img src="<?php echo base_url() ?>img/event/event_3.jpg">
-				</div>
-				<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_3.jpg)"></div> -->
-				<div class="featured-info">
-					<h4><a href="<?php echo site_url() ?>page/events/1">Balinese Art Exhibition</a></h4>
-					<p>by <span class="bolder">Museum Nasional</span></p>
-					<p>Date : 26 Sept - 3 Nov '14 </p>
-					<p style="margin-top:10px">
-						<span class="label label-default">#exhibition</span>
-					</p>
+			<div class="col-sm-6 col-md-3 col-xs-12">
+				<div class="border-inset">
+					<div class="frame">
+						<img src="<?php echo base_url() ?>img/event/event_2.jpg">
+					</div>
+					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_2.jpg)"></div> -->
+					<div class="wrap-item-caption">
+						<h4><a href="<?php echo site_url() ?>page/events/1">Train Prototype Workshop</a></h4>
+						<p>by <span class="bolderprofile">Museum Nasional</span></p>
+						<time>3 - 12 March 2015</time>
+						<p style="margin-top:10px">
+							<span class="label label-default">#workshop</span>
+						</p>
+					</div>
 				</div>
 			</div>
-			<div class="col-md-3 col-xs-12">
-				<div class="frame">
-					<img src="<?php echo base_url() ?>img/event/event_4.jpg">
+			<div class="col-sm-6 col-md-3 col-xs-12">
+				<div class="border-inset">
+					<div class="frame">
+						<img src="<?php echo base_url() ?>img/event/event_3.jpg">
+					</div>
+					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_3.jpg)"></div> -->
+					<div class="wrap-item-caption">
+						<h4><a href="<?php echo site_url() ?>page/events/1">Balinese Art Exhibition</a></h4>
+						<p>by <span class="bolder">Museum Nasional</span></p>
+						<time>3 - 12 March 2015</time>
+						<p style="margin-top:10px">
+							<span class="label label-default">#exhibition</span>
+						</p>
+					</div>
 				</div>
-				<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_4.jpg)"></div> -->
-				<div class="featured-info">
-					<h4><a href="<?php echo site_url() ?>page/events/1">New Artifacts Found</a></h4>
-					<p>by <span class="bolder">Museum Bank Indonesia</span></p>
-					<p>Date : 26 Sept - 1 Nov '14 </p>
-					<p style="margin-top:10px">
-						<span class="label label-default">#competition</span>
-						<span class="label label-default">#event</span>
-					</p>
+			</div>
+			<div class="col-sm-6 col-md-3 col-xs-12">
+				<div class="border-inset">
+					<div class="frame">
+						<img src="<?php echo base_url() ?>img/event/event_4.jpg">
+					</div>
+					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_4.jpg)"></div> -->
+					<div class="wrap-item-caption">
+						<h4><a href="<?php echo site_url() ?>page/events/1">Peder Balke</a></h4>
+						<p>by <span class="bolder">Museum Bank Indonesia</span></p>
+						<time>3 - 12 March 2015</time>
+						<p style="margin-top:10px">
+							<span class="label label-default">#competition</span>
+							<span class="label label-default">#event</span>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -134,18 +193,19 @@
 </div>
 
 <!-- NEWS -->
-<div id="news-section">
+<div class="home-section">
 	<div class="container">
+		<h1>In the News&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/news">View all news &rarr;</a></small></h1>
 		<div class="row">
-			<div class="col-md-3 title-element">
+			<!-- <div class="col-md-3 title-element">
 				<h2>In the News</h2>
 				<p>News about museums. Commentary and archival information about museums</p>
 				<p>
 					<a href="<?php echo site_url(); ?>page/news" class="btn btn-primary btn-block">MORE NEWS &raquo;</a>
 				</p>
-			</div>
-			<div class="col-md-9 news-highlight">
-				<div class="col-md-6 col-xs-12">
+			</div> -->
+			<div class="col-md-12 news-highlight">
+				<div class="col-md-4 col-xs-12">
 					<div class="news-item">
 						<div class="row">
 							<div class="col-xs-3 news-left">
@@ -159,7 +219,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-4 col-xs-12">
 					<div class="news-item">
 						<div class="row">
 							<div class="col-xs-3 news-left">
@@ -173,7 +233,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-4 col-xs-12">
 					<div class="news-item">
 						<div class="row">
 							<div class="col-xs-3 news-left">
@@ -187,7 +247,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-4 col-xs-12">
 					<div class="news-item">
 						<div class="row">
 							<div class="col-xs-3 news-left">
@@ -201,7 +261,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-4 col-xs-12">
 					<div class="news-item">
 						<div class="row">
 							<div class="col-xs-3 news-left">
@@ -215,7 +275,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-xs-12">
+				<div class="col-md-4 col-xs-12">
 					<div class="news-item">
 						<div class="row">
 							<div class="col-xs-3 news-left">
@@ -228,38 +288,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- COLLECTIONS -->
-<div id="coll-section">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12" style="text-align:center">
-				<h2>Explore</h2>
-				<p>Explore what's inside the museums</p>
-				<!-- <p>
-					<a href="<?php echo site_url(); ?>page/news" class="btn btn-default">READ MORE NEWS</a>
-				</p> -->
-			</div>
-			<div class="col-md-12">
-				<div class="row" id="masonry-grid">
-					<?php foreach($collections as $row) : ?>
-	
-					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 grid-item">
-						<div class="thumbnail">
-							<img src="<?php echo base_url() . 'img/collection/' . $row->foto_koleksi ?>" class="img-responsive" alt="">
-							<div class="caption">
-								<h4><?php echo $row->nama_koleksi; ?> <span class="title">(<?php echo $row->nama_kategori_koleksi; ?>)</span></h4>
-								<p><a href="" title=""><?php echo $row->nama_museum; ?></a></p>
-							</div>
-						</div>
-					</div>
-	
-					<?php endforeach; ?>
 				</div>
 			</div>
 		</div>
