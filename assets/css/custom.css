@@ -456,6 +456,10 @@ span.label:hover {
 	box-shadow: inset 0 0 0 1px #ddd;
 }
 
+.wrap-item-caption {
+	padding: 5px 15px;
+}
+
 .by-museum {
 	font-size: 17px;
 	font-weight: bolder;

@@ -175,7 +175,7 @@
 
 	<!-- REVIEWS -->
 	<div class="row box">
-		<div class="col-md-6 col-xs-12">
+		<div class="col-sm-9">
 			<h3>Reviews</h3>
 			<div class="reviews">
 				<span class="bolder">4.2&nbsp;</span>
@@ -184,11 +184,100 @@
 					<span class="score-stars-active"></span>
 					<span class="score-stars-active"></span>
 					<span class="score-stars-active"></span>
-					<span class="score-stars"></span>
+					<span class="score-stars-active"></span>
 				</div>
 				<small>of 823 reviews</small>
+				<div class="pull-right">
+					<burron class="btn btn-primary"><span class="fa fa-fw fa-pencil"></span>&nbsp;Write a review</burron>
+				</div>
 			</div>
 			<hr>
+			<div class="wrap-media">
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object img img-circle" src="<?php echo base_url()?>img/blogs/kitten.jpg" alt="Image" width="50" height="50">
+						</a>
+					</div>
+					<div class="media-body" style="padding-left: 10px">
+						<h4 class="media-heading" style="margin:0">Abdurrahaman Maududi</h4>
+						<p class="text-muted">3 months ago</p>
+						<p>
+							<div class="score">
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars"></span>
+							</div>
+							<span>Good museum, rich of collections and I enjoyed them very much</span>
+						</p>
+					</div>
+				</div>
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object img img-circle" src="<?php echo base_url()?>img/blogs/kitten.jpg" alt="Image" width="50" height="50">
+						</a>
+					</div>
+					<div class="media-body" style="padding-left: 10px">
+						<h4 class="media-heading" style="margin:0">Puspita Awalina</h4>
+						<p class="text-muted">3 months ago</p>
+						<p>
+							<div class="score">
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+							</div>
+							<span>The guides for foreigners possess fluent English speaking skill. Helped me a lot</span>
+						</p>
+					</div>
+				</div>
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object img img-circle" src="<?php echo base_url()?>img/blogs/kitten.jpg" alt="Image" width="50" height="50">
+						</a>
+					</div>
+					<div class="media-body" style="padding-left: 10px">
+						<h4 class="media-heading" style="margin:0">Haw Faruqi</h4>
+						<p class="text-muted">4 months ago</p>
+						<p>
+							<div class="score">
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars"></span>
+							</div>
+							<span>As an archelogist, this museum provides so many data I needed, and it's easy for me to get. Open-armed!</span>
+						</p>
+					</div>
+				</div>
+				<div class="media">
+					<div class="media-left">
+						<a href="#">
+							<img class="media-object img img-circle" src="<?php echo base_url()?>img/blogs/kitten.jpg" alt="Image" width="50" height="50">
+						</a>
+					</div>
+					<div class="media-body" style="padding-left: 10px">
+						<h4 class="media-heading" style="margin:0">Dedi Arief</h4>
+						<p class="text-muted">6 months ago</p>
+						<p>
+							<div class="score">
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars-active"></span>
+								<span class="score-stars"></span>
+								<span class="score-stars"></span>
+							</div>
+							<span>Rancakbana lah</span>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

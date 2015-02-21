@@ -100,7 +100,7 @@
 }
 
 .news-left {
-	background: #337ab7;
+	background: #56c90e;
 	padding: 5px;
 	text-align: center;
 	color: white;
@@ -133,7 +133,7 @@
 	height: 0;
 	border-style: solid;
 	border-width: 7.5px 0 7.5px 10px;
-	border-color: transparent transparent transparent #337ab7;
+	border-color: transparent transparent transparent #56c90e;
 	line-height: 0;
 	position: absolute;
 	left: 0;
@@ -159,7 +159,7 @@ h3.more-info {
 	font-weight: bolder;
 }
 
-.reviews .score {
+.score {
 	display: inline-block;
 	font-family: FontAwesome;
 }
