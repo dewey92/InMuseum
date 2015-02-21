@@ -437,6 +437,7 @@
 				$('#toggle-quick-list').click(function() {
 					$('#quick-list').toggleClass('open');
 					$('#box-overlay').toggleClass('open');
+					$('#quickAccess').focus();
 				});
 				$('#box-overlay').click(function() {
 					$('#quick-list').removeClass('open');
@@ -453,7 +454,17 @@
 
 		</script>
 
-		<?php if ($page == 'collections') : ?>
+		<?php if ($page == 'index') : ?>
+
+		<script>
+			$(function() {
+				var inputCity = $('#inputMuseumCity');
+				var len = inputCity.val().length;
+				inputCity[0].setSelectionRange(len, len);
+			});
+		</script>
+
+		<?php elseif ($page == 'collections') : ?>
 
 		<script src="<?php echo base_url() ?>assets/js/imagesloaded.pkgd.min.js"></script>
 		<script src="<?php echo base_url() ?>assets/js/masonry.pkgd.min.js"></script>

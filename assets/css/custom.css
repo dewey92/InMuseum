@@ -522,6 +522,16 @@ span.label:hover {
 	flex-direction: column;
 }
 
+@media screen and (max-width: 768px) {
+	.flex {
+		flex-wrap: wrap;
+	}
+
+	.flex .flex {
+		flex-basis: 49%;
+	}
+}
+
 #signin .modal-footer {
 	font-size: 17px;
 }

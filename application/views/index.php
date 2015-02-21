@@ -24,7 +24,7 @@
 						<div class="wrap-icon-mega">
 							<span class="fa fa-4x fa-map-marker"></span>
 						</div>
-						<input type="text" name="museumCity" id="inputMuseumCity" class="form-control input-lg form-mega" value="Depok" placeholder="Type your destination city ..." autocomplete="off" autofocus />
+						<input type="text" name="museumCity" id="inputMuseumCity" class="form-control input-lg form-mega" value="Malang" placeholder="Type your destination city ..." autocomplete="off" autofocus />
 					</div>
 				</form>
 			</div>
@@ -64,7 +64,7 @@
 <!-- MUSEUMS -->
 <div class="home-section">
 	<div class="container">
-		<h1>Museums near 'Depok'&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/participants">View all museums in the city &rarr;</a></small></h1>
+		<h1>Museums near 'Malang'&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/participants">View all museums in the city &rarr;</a></small></h1>
 		<div class="row flex">
 			<div class="col-md-3 col-xs-12 flex">
 				<div class="border-inset flex-item">
@@ -121,7 +121,7 @@
 <!-- EVENTS -->
 <div class="home-section">
 	<div class="container">
-		<h1>Ongoing Events&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/events">View all events &rarr;</a></small></h1>
+		<h1>Events by Museums near 'Malang'&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/events">View all events &rarr;</a></small></h1>
 		<div class="row">
 			<div class="col-sm-6 col-md-3 col-xs-12">
 				<div class="border-inset">
@@ -147,8 +147,8 @@
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_2.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/events/1">Train Prototype Workshop</a></h4>
-						<p>by <span class="bolderprofile">Museum Nasional</span></p>
-						<time>3 - 12 March 2015</time>
+						<p>by <span class="bolder">Museum Nasional</span></p>
+						<time>Fri, 6 March 2015</time>
 						<p style="margin-top:10px">
 							<span class="label label-default">#workshop</span>
 						</p>
@@ -164,7 +164,7 @@
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/events/1">Balinese Art Exhibition</a></h4>
 						<p>by <span class="bolder">Museum Nasional</span></p>
-						<time>3 - 12 March 2015</time>
+						<time>18 - 23 March 2015</time>
 						<p style="margin-top:10px">
 							<span class="label label-default">#exhibition</span>
 						</p>
@@ -180,7 +180,7 @@
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/events/1">Peder Balke</a></h4>
 						<p>by <span class="bolder">Museum Bank Indonesia</span></p>
-						<time>3 - 12 March 2015</time>
+						<time>Mon, 16 March 2015</time>
 						<p style="margin-top:10px">
 							<span class="label label-default">#competition</span>
 							<span class="label label-default">#event</span>
