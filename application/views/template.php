@@ -139,7 +139,9 @@
 								<span class="fa fa-fw fa-user"></span> Waspada <b class="caret"></b>
 							</a>
 							<ul class="dropdown-menu">
-								<li><a href="<?php echo site_url(); ?>page/user_profile"><span class="fa fa-fw fa-user"></span> Profile</a></li>
+								<li <?php if( $page == 'user_profile' ) echo 'class="active"'?>>
+									<a href="<?php echo site_url(); ?>page/user_profile"><span class="fa fa-fw fa-user"></span> Profile</a>
+								</li>
 								<li class="divider"></li>
 								<li><a href="<?php echo site_url(); ?>page/log_out"><span class="fa fa-fw fa-power-off"></span> Logout</a></li>
 							</ul>

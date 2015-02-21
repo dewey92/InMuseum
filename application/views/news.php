@@ -16,7 +16,7 @@
 </div>
 
 <!-- RIGHT -->
-<div class="container">
+<div class="container box">
 	<!-- NEWS -->
 	<div class="row">
 		<div class="col-md-9">
@@ -50,9 +50,9 @@
 
 				<!-- PAGINATION -->
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3">
-						<div class="more-button">
-							<button class="btn btn-default col-xs-12">Load More ...</button>
+					<div class="col-sm-12">
+						<div class="more-button vertical-center flex-column">
+							<button class="btn btn-default">Load More ...</button>
 						</div>
 					</div>
 				</div>

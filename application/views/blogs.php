@@ -16,7 +16,7 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container box">
 	<div class="alert alert-warning alert-dismissible" role="alert">
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 			<span aria-hidden="true">&times;</span>
@@ -27,7 +27,7 @@
 </div>
 
 <!-- RIGHT -->
-<div class="container">
+<div class="container box">
 	<!-- RECENT BLOGS -->
 	<div class="row">
 		<div class="col-md-9">
@@ -59,9 +59,9 @@
 				
 				<!-- LOAD -->
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-3">
-						<div class="more-button">
-							<button class="btn btn-default col-xs-12">Load More ...</button>
+					<div class="col-sm-12">
+						<div class="more-button vertical-center flex-column">
+							<button class="btn btn-default">Load More ...</button>
 						</div>
 					</div>
 				</div>
@@ -121,37 +121,37 @@
 					<div class="col-md-12 col-xs-12 content">
 						<h4><a href="<?php echo base_url(); ?>page/blogs/1">My Experience in Digging Artifact</a></h4>
 						<p>
-							by <a href="" class="by-museum">Haq Faruqie</a> | 13 October 2014
+							by <a href="">Haq Faruqie</a> | 13 October 2014
 						</p>
 					</div>
 					<div class="col-md-12 col-xs-12 content">
 						<h4><a href="<?php echo base_url(); ?>page/blogs/1">Family Trip: Museum!</a></h4>
 						<p>
-							by <a href="" class="by-museum">Ali Fahmi</a> | 8 September 2014
+							by <a href="">Ali Fahmi</a> | 8 September 2014
 						</p>
 					</div>
 					<div class="col-md-12 col-xs-12 content">
 						<h4><a href="<?php echo base_url(); ?>page/blogs/1">Views on Indonesian Museums</a></h4>
 						<p>
-							by <a href="" class="by-museum">Fatah Hilman</a> | 29 Desember 2014
+							by <a href="">Fatah Hilman</a> | 29 Desember 2014
 						</p>
 					</div>
 					<div class="col-md-12 col-xs-12 content">
 						<h4><a href="<?php echo base_url(); ?>page/blogs/1">My Experience in Digging Artifact</a></h4>
 						<p>
-							by <a href="" class="by-museum">Haq Faruqie</a> | 13 October 2014
+							by <a href="">Haq Faruqie</a> | 13 October 2014
 						</p>
 					</div>
 					<div class="col-md-12 col-xs-12 content">
 						<h4><a href="<?php echo base_url(); ?>page/blogs/1">Family Trip: Museum!</a></h4>
 						<p>
-							by <a href="" class="by-museum">Ali Fahmi</a> | 8 September 2014
+							by <a href="">Ali Fahmi</a> | 8 September 2014
 						</p>
 					</div>
 					<div class="col-md-12 col-xs-12 content">
 						<h4><a href="<?php echo base_url(); ?>page/blogs/1">Views on Indonesian Museums</a></h4>
 						<p>
-							by <a href="" class="by-museum">Fatah Hilman</a> | 29 Desember 2014
+							by <a href="">Fatah Hilman</a> | 29 Desember 2014
 						</p>
 					</div>
 				</div>

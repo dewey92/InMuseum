@@ -31,12 +31,18 @@
 	font-size: 16px;
 }
 
-.museum-rating {
+.wrap-museum-rating {
 	background: rgba(0,0,0,0.4);
+	color: #ffdb00;
+	font-size: 30px;
+	font-weight: bolder;
 	padding: 15px;
+}
+
+.museum-rating {
+	display: inline-block;
 	unicode-bidi: bidi-override;
 	direction: rtl;
-	font-size: 30px;
 }
 
 .museum-rating > span.star {
@@ -45,6 +51,7 @@
 	font-style: normal;
 	display: inline-block;
 }
+
 .museum-rating span.star:before {
 	content: "\f006";
 	padding-right: 5px;
@@ -144,6 +151,32 @@
 
 h3.more-info {
 	margin: 0;
+}
+
+.reviews {
+	color: #ffdb00;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.reviews .score {
+	display: inline-block;
+	font-family: FontAwesome;
+}
+
+.reviews > small {
+	color: #60605b;
+	font-weight: normal;
+}
+
+.score-stars:before {
+	content: "\f006";
+	padding-right: 5px;
+}
+
+.score-stars-active:before {
+	content: "\f005";
+	padding-right: 5px;
 }
 
 /* END MUSEUM PROFILE */

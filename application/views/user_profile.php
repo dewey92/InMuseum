@@ -1,19 +1,12 @@
-<header class="header-bg">
+<!-- <header class="header-bg">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-2 col-xs-4">
-				<div id="prof-pic">
-					<img src="<?php echo base_url() . 'img/blogs/kitten.jpg' ?>" alt="" class="img-responsive">
-				</div>
-			</div>
-			<div class="col-md-9 col-sx-8 col-md-offset-1 col-xs-offset-4">
-				<h1>BLOGS</h1>
-				<p>A simple, one page website template for quickly building one page websites using Bootstrap 3.</p>
-			</div>
+		<div class="header-bg-text">
+			<h1>BLOGS</h1>
+			<p>A simple, one page website template for quickly building one page websites using Bootstrap 3.</p>
 		</div>
 	</div>
-</header>
-<div class="mini-bar">
+</header> -->
+<!-- <div class="mini-bar">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-9 col-md-offset-3">
@@ -24,14 +17,14 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 <!-- RIGHT -->
-<div class="container">
+<div class="container box">
 	<div class="row">
 		<div class="col-md-9 col-md-offset-3">
 			<div id="add-post">
-				<button class="btn btn-primary btn-lg" data-toggle="modal" href='#write-blog'>
+				<button class="btn btn-danger btn-lg" data-toggle="modal" href='#write-blog'>
 					<span class="fa fa-pencil"></span>&nbsp;&nbsp;<strong>write blog</strong>
 				</button>
 			</div>
@@ -41,6 +34,9 @@
 	<!-- PROFILE -->
 	<div class="row">
 		<div class="col-md-3">
+			<div id="prof-pic">
+				<img src="<?php echo base_url() . 'img/blogs/kitten.jpg' ?>" alt="" class="img-responsive">
+			</div>
 			<div id="prof-info">
 				<h3 id="prof-name">Abdurrahman Maududi&nbsp;<span class="fa fa-edit"></span></h3>
 				<p id="prof-bio">
@@ -68,8 +64,14 @@
 					<div class="blog-item">
 						.
 						<div class="blog-item-body">
-							<h4><a href="<?php echo site_url(); ?>page/blogs/1">Visiting Transportation Museum</a></h4>
-							<p class="blog-item-info">by <a href="">Abdurrahman Maududi</a> | 12 Dec 2014</p>
+							<h4>
+								<a href="<?php echo site_url(); ?>page/blogs/1">Visiting Transportation Museum</a>
+								<div class="pull-right">
+									<button class="btn btn-success"><span class="fa fa-fw fa-edit"></span>&nbsp;&nbsp;edit</button>
+									<button class="btn btn-warning"><span class="fa fa-fw fa-trash-o"></span>&nbsp;&nbsp;delete</button>
+								</div>
+							</h4>
+							<p class="blog-item-info"><span class="fa fa-fw fa-calendar"></span> 12 Dec 2014</p>
 							<p>
 								Pada permukaan otak kecil sapi-sapi itu dipasang elekroda (microchip) yang disebut Electro Encephalograph (EEG).
 								EEG dipasang dipermukaan otak yang menyentuh titik (panel) rasa sakit, untuk merekam dan mencatat derajat rasa sakit ketika disembelih.

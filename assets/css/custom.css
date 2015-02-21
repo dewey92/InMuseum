@@ -486,8 +486,7 @@ span.label:hover {
 }
 
 .right-right .content {
-	font-size: 90%;
-	padding-top: 10px;
+	padding-top: 0;
 	padding-bottom: 0;
 }
 

@@ -2,12 +2,16 @@
 	<div class="container">
 		<div class="header-bg-text">
 			<h1>MUSEUM NASIONAL</h1>
-			<div class="museum-rating">
-				<span class="star"></span>
-				<span class="star"></span>
-				<span class="star"></span>
-				<span class="star"></span>
-				<span class="star"></span>
+			<div class="wrap-museum-rating">
+				4.2&nbsp;
+				<div class="museum-rating">
+					<span class="star"></span>
+					<span class="star"></span>
+					<span class="star"></span>
+					<span class="star"></span>
+					<span class="star"></span>
+				</div>
+				of 854 reviews
 			</div>
 		</div>
 	</div>
@@ -23,6 +27,7 @@
 </div>
 
 <div class="container">
+	<!-- DESCRIPTION -->
 	<div class="row">
 		<div class="col-xs-12">
 			<h2><small>
@@ -32,6 +37,8 @@
 			</small></h2>
 		</div>
 	</div>
+
+	<!-- INFO -->
 	<div class="row flex">
 		<div class="col-xs-12 col-md-4">
 			<div class="row">
@@ -66,6 +73,8 @@
 			<div id="map-canvas"></div>
 		</div>
 	</div>
+
+	<!-- EVENTS ETC -->
 	<div class="row additional-info">
 		<div class="col-md-4 events-highlight">
 			<h3 class="text-center">EVENTS</h3>
@@ -161,6 +170,25 @@
 		</div>
 		<div class="col-md-4">
 			<h3 class="text-center">COLLECTIONS</h3>
+		</div>
+	</div>
+
+	<!-- REVIEWS -->
+	<div class="row box">
+		<div class="col-md-6 col-xs-12">
+			<h3>Reviews</h3>
+			<div class="reviews">
+				<span class="bolder">4.2&nbsp;</span>
+				<div class="score">
+					<span class="score-stars-active"></span>
+					<span class="score-stars-active"></span>
+					<span class="score-stars-active"></span>
+					<span class="score-stars-active"></span>
+					<span class="score-stars"></span>
+				</div>
+				<small>of 823 reviews</small>
+			</div>
+			<hr>
 		</div>
 	</div>
 </div>
