@@ -39,27 +39,28 @@
 	padding: 15px;
 }
 
-.museum-rating {
+.please-rate {
 	display: inline-block;
 	unicode-bidi: bidi-override;
 	direction: rtl;
+	cursor: pointer;
 }
 
-.museum-rating > span.star {
+.please-rate > span.star {
 	font-family: FontAwesome;
 	font-weight: normal;
 	font-style: normal;
 	display: inline-block;
 }
 
-.museum-rating span.star:before {
+.please-rate span.star:before {
 	content: "\f006";
 	padding-right: 5px;
 	color: #777777;
 }
 
-.museum-rating > span:hover:before,
-.museum-rating > span:hover ~ span:before {
+.please-rate > span:hover:before,
+.please-rate > span:hover ~ span:before {
    content: "\f005";
    color: #ffdb00;
    /* position: absolute; */
@@ -157,6 +158,10 @@ h3.more-info {
 	color: #ffdb00;
 	font-size: 30px;
 	font-weight: bolder;
+}
+
+.average-rating {
+	font-family: 'Museo Fat';
 }
 
 .score {

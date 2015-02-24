@@ -1,9 +1,8 @@
 <header class="header-bg header-bg-cover">
-	<div style="background: rgba(0,0,0,0.8)"></div>
-	<div class="container">
-		<div class="header-bg-text">
+	<div class="header-bg-text">
+		<div class="container">
 			<h1>BLOG</h1>
-			<p>InMuseum Bloog brings together perspectives from our members and an expanding network of guest contributors, exploring provocative art and ideas from around the world.</p>
+			<p>InMuseum Blog brings together perspectives from our members and an expanding network of guest contributors, exploring provocative art and ideas from around the world.</p>
 		</div>
 	</div>
 </header>
@@ -16,6 +15,8 @@
 	</div>
 </div>
 
+<?php if ( !  $this->session->userdata('id_user') ) : ?>
+
 <div class="container box">
 	<div class="alert alert-warning alert-dismissible" role="alert">
 		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -25,6 +26,8 @@
 		<a href="" class="alert-link" data-toggle="modal" data-target="#signin">login</a> to be able to write blogs.
 	</div>
 </div>
+
+<?php endif; ?>
 
 <!-- RIGHT -->
 <div class="container box">

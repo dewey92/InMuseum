@@ -1,10 +1,10 @@
 <header class="header-bg" id="musnas">
-	<div class="container">
-		<div class="header-bg-text">
+	<div class="header-bg-text">
+		<div class="container">
 			<h1>MUSEUM NASIONAL</h1>
-			<div class="wrap-museum-rating">
+			<!-- <div class="wrap-museum-rating">
 				4.2&nbsp;
-				<div class="museum-rating">
+				<div class="please-rate">
 					<span class="star"></span>
 					<span class="star"></span>
 					<span class="star"></span>
@@ -12,7 +12,12 @@
 					<span class="star"></span>
 				</div>
 				of 854 reviews
-			</div>
+			</div> -->
+			<p>
+				<blockquote>The National Museum of Indonesia, is an archeological, historical, ethnological, and geographical museum
+					located in Jalan Medan Merdeka Barat, Central Jakarta, right on the west side of Merdeka Square
+				</blockquote>
+			</p>
 		</div>
 	</div>
 </header>
@@ -28,7 +33,7 @@
 
 <div class="container">
 	<!-- DESCRIPTION -->
-	<div class="row">
+	<!-- <div class="row">
 		<div class="col-xs-12">
 			<h2><small>
 				<blockquote>The National Museum of Indonesia, is an archeological, historical, ethnological, and geographical museum
@@ -36,7 +41,7 @@
 				</blockquote>
 			</small></h2>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- INFO -->
 	<div class="row flex">
@@ -178,13 +183,13 @@
 		<div class="col-sm-9">
 			<h3>Reviews</h3>
 			<div class="reviews">
-				<span class="bolder">4.2&nbsp;</span>
+				<span class="average-rating">4.2&nbsp;</span>
 				<div class="score">
 					<span class="score-stars-active"></span>
 					<span class="score-stars-active"></span>
 					<span class="score-stars-active"></span>
 					<span class="score-stars-active"></span>
-					<span class="score-stars-active"></span>
+					<span class="score-stars"></span>
 				</div>
 				<small>of 823 reviews</small>
 				<div class="pull-right">

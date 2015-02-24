@@ -1,6 +1,6 @@
 <header class="header-bg header-bg-cover">
-	<div class="container">
-		<div class="header-bg-text">
+	<div class="header-bg-text">
+		<div class="container">
 			<h1>EVENTS & EXHIBITIONS</h1>
 			<p>Join the various events and exhibitions held by the museums</p>
 		</div>
@@ -97,7 +97,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								<div class="event-date-meta">
-									<h3><time>12 February - 16 February 2015</time></h3>
+									<h3 class="text-primary"><time>12 February - 16 February 2015</time></h3>
 									<h2><a href="<?php echo base_url(); ?>page/events/1">New Artifacts Found at Singosari</a></h2>
 								</div>
 								<p class="by-museum">by <a href="">Museum Nasional</a></p>
@@ -136,7 +136,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								<div class="event-date-meta">
-									<h3><time>Saturday, 14 February 2015</time></h3>
+									<h3 class="text-primary"><time>Saturday, 14 February 2015</time></h3>
 									<h2><a href="<?php echo base_url(); ?>page/events/1">Train Prototype Workshop</a></h2>
 								</div>
 								<p class="by-museum">by <a href="">Museum KAI</a></p>

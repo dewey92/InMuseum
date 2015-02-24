@@ -108,6 +108,15 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: #007fa5;
 }
 
+/* .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	font-family: 'Museo Fat';
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+} */
+
 li#search-box {
 	background: #272727;
 	padding-left: 15px;
@@ -232,7 +241,7 @@ li#search-box > a:hover {
 	outline: thin dotted \9;
 	-webkit-box-shadow: 0 0 8px 2px rgba(82,168,236,.6);
 	box-shadow: 0 0 8px 2px rgba(82,168,236,.6);
-	transition: all .25s ease-in-out .25s;
+	transition: all 1s ease-in-out 0.75s;
 }
 
 #toggle-quick-list:hover {
@@ -309,13 +318,11 @@ li#search-box > a:hover {
 
 .header-bg {
 	position: relative;
-	padding: 15px;
 	text-align: left;
 	text-shadow: 0 0 7px #222;
 	color: rgba(255,255,255,.9);
 	background-color: #b84d45;
 	font-size: 20px;
-	min-height: 45%;
 }
 
 .header-bg-cover {
@@ -324,11 +331,8 @@ li#search-box > a:hover {
 }
 
 .header-bg-text {
-	position: absolute;
-	bottom: 20px;
-	padding-right: 15px;
-	/* background: rgba(0,0,0,0.4);
-	padding: 15px; */
+	background: rgba(0,0,0,0.4);
+	padding: 40px 0 0;
 }
 
 .header-bg-text h1 {
@@ -353,16 +357,10 @@ li#search-box > a:hover {
 	padding: 0 30px;
 }
 
-.wrap-content {
-	padding: 1px 15px 15px;
-	/* background: #fbfbfa; */
-	background: white;
-	/* box-shadow: 0 0 7px #ccc; */
-}
-
 .mini-bar {
 	padding: 10px 15px;
 	background: #272727;
+	/* box-shadow: inset 0 3px 5px #1b1b1b; */
 }
 
 .mini-bar h3 {

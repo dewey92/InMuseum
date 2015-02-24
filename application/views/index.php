@@ -62,15 +62,17 @@
 </header>
 
 <!-- MUSEUMS -->
-<div class="home-section">
+<section class="home-section">
 	<div class="container">
 		<h1>Museums near 'Malang'&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/participants">View all museums in the city &rarr;</a></small></h1>
-		<div class="row flex">
+		<div class="row flex box">
 			<div class="col-md-3 col-xs-12 flex">
 				<div class="border-inset flex-item">
-					<div class="frame">
-						<img src="<?php echo base_url() ?>img/participants/museum-bank-indonesia.jpg">
-					</div>
+					<a href="<?php echo site_url(); ?>page/profile/1">
+						<div class="frame">
+							<img src="<?php echo base_url() ?>img/participants/museum-bank-indonesia.jpg">
+						</div>
+					</a>
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_1.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/profile/1">Museum Bank Indonesia</a></h4>
@@ -80,9 +82,11 @@
 			</div>
 			<div class="col-md-3 col-xs-12 flex">
 				<div class="border-inset flex-item">
-					<div class="frame">
-						<img src="<?php echo base_url() ?>img/participants/museum-vredeburg.jpg">
-					</div>
+					<a href="<?php echo site_url(); ?>page/profile/1">
+						<div class="frame">
+							<img src="<?php echo base_url() ?>img/participants/museum-vredeburg.jpg">
+						</div>
+					</a>
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_2.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/profile/1">Museum Vredeburg</a></h4>
@@ -92,9 +96,11 @@
 			</div>
 			<div class="col-md-3 col-xs-12 flex">
 				<div class="border-inset flex-item">
-					<div class="frame">
-						<img src="<?php echo base_url() ?>img/participants/museum-angkut.jpg">
-					</div>
+					<a href="<?php echo site_url(); ?>page/profile/1">
+						<div class="frame">
+							<img src="<?php echo base_url() ?>img/participants/museum-angkut.jpg">
+						</div>
+					</a>
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_3.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/profile/1">Museum Angkut</a></h4>
@@ -104,9 +110,11 @@
 			</div>
 			<div class="col-md-3 col-xs-12 flex">
 				<div class="border-inset flex-item">
-					<div class="frame">
-						<img src="<?php echo base_url() ?>img/participants/museum-kereta-api.jpg">
-					</div>
+					<a href="<?php echo site_url(); ?>page/profile/1">
+						<div class="frame">
+							<img src="<?php echo base_url() ?>img/participants/museum-kereta-api.jpg">
+						</div>
+					</a>
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_4.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/profile/1">Museum Kereta Api</a></h4>
@@ -116,18 +124,20 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <!-- EVENTS -->
-<div class="home-section">
+<section class="home-section" id="event-section">
 	<div class="container">
-		<h1>Events by Museums near 'Malang'&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/events">View all events &rarr;</a></small></h1>
-		<div class="row">
+		<h1>Events near 'Malang'&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/events">View all museum events &rarr;</a></small></h1>
+		<div class="row box">
 			<div class="col-sm-6 col-md-3 col-xs-12">
 				<div class="border-inset">
-					<div class="frame">
-						<img src="<?php echo base_url() ?>img/event/event_1.jpg">
-					</div>
+					<a href="<?php echo site_url(); ?>page/events/1">
+						<div class="frame">
+							<img src="<?php echo base_url() ?>img/event/event_1.jpg">
+						</div>
+					</a>
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_1.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/events/1">New Artifacts Found</a></h4>
@@ -141,14 +151,16 @@
 			</div>
 			<div class="col-sm-6 col-md-3 col-xs-12">
 				<div class="border-inset">
-					<div class="frame">
-						<img src="<?php echo base_url() ?>img/event/event_2.jpg">
-					</div>
+					<a href="<?php echo site_url(); ?>page/events/1">
+						<div class="frame">
+							<img src="<?php echo base_url() ?>img/event/event_2.jpg">
+						</div>
+					</a>
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_2.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/events/1">Train Prototype Workshop</a></h4>
 						<p>by <span class="bolder">Museum Nasional</span></p>
-						<time>Fri, 6 March 2015</time>
+						<time>Friday, 6 March 2015</time>
 						<p style="margin-top:10px">
 							<span class="label label-default">#workshop</span>
 						</p>
@@ -157,9 +169,11 @@
 			</div>
 			<div class="col-sm-6 col-md-3 col-xs-12">
 				<div class="border-inset">
-					<div class="frame">
-						<img src="<?php echo base_url() ?>img/event/event_3.jpg">
-					</div>
+					<a href="<?php echo site_url(); ?>page/events/1">
+						<div class="frame">
+							<img src="<?php echo base_url() ?>img/event/event_3.jpg">
+						</div>
+					</a>
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_3.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/events/1">Balinese Art Exhibition</a></h4>
@@ -173,14 +187,16 @@
 			</div>
 			<div class="col-sm-6 col-md-3 col-xs-12">
 				<div class="border-inset">
-					<div class="frame">
-						<img src="<?php echo base_url() ?>img/event/event_4.jpg">
-					</div>
+					<a href="<?php echo site_url(); ?>page/events/1">
+						<div class="frame">
+							<img src="<?php echo base_url() ?>img/event/event_4.jpg">
+						</div>
+					</a>
 					<!-- <div class="img-bg header-bg-cover" style="background-image:url(<?php echo base_url() ?>img/event/event_4.jpg)"></div> -->
 					<div class="wrap-item-caption">
 						<h4><a href="<?php echo site_url() ?>page/events/1">Peder Balke</a></h4>
 						<p>by <span class="bolder">Museum Bank Indonesia</span></p>
-						<time>Mon, 16 March 2015</time>
+						<time>Tuesday, 17 March 2015</time>
 						<p style="margin-top:10px">
 							<span class="label label-default">#competition</span>
 							<span class="label label-default">#event</span>
@@ -190,20 +206,13 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 
 <!-- NEWS -->
-<div class="home-section">
+<section class="home-section">
 	<div class="container">
 		<h1>In the News&nbsp;&nbsp;<small><a href="<?php echo site_url(); ?>page/news">View all news &rarr;</a></small></h1>
-		<div class="row">
-			<!-- <div class="col-md-3 title-element">
-				<h2>In the News</h2>
-				<p>News about museums. Commentary and archival information about museums</p>
-				<p>
-					<a href="<?php echo site_url(); ?>page/news" class="btn btn-primary btn-block">MORE NEWS &raquo;</a>
-				</p>
-			</div> -->
+		<div class="row box">
 			<div class="col-md-12 news-highlight">
 				<div class="col-md-4 col-xs-12">
 					<div class="news-item">
@@ -292,4 +301,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>

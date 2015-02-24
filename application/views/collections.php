@@ -1,6 +1,6 @@
 <header class="header-bg header-bg-cover">
-	<div class="container">
-		<div class="header-bg-text">
+	<div class="header-bg-text">
+		<div class="container">
 			<h1>COLLECTIONS</h1>
 			<p>The following collections are displayed according to the museums paricipating in the site</p>
 		</div>
@@ -45,7 +45,7 @@
 										<li class="divider"></li>
 										<?php foreach($classifications as $row) : ?>
 											<li data-toggle="tooltip" data-placement="left" title="Description goes here">
-												<a href="#" title=""><?php echo $row->nama_kategori_koleksi . ' (' . rand(20,1000) . ')'; ?></a>
+												<a href="#" title=""><?php echo $row->nama_kategori_koleksi . ' (' . rand(20,30000) . ')'; ?></a>
 											</li>
 										<?php endforeach;?>
 									</ul>

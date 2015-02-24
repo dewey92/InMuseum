@@ -6,12 +6,26 @@
 	border-bottom: 1px solid #ddd;
 }
 
-.event-date-meta * {
-	color: inherit;
+.content:last-child {
+	border-bottom: none;
 }
 
-.event-date-meta time {
-	color: #007fa5;
+.event-date-meta h2 a {
+	color: inherit;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+}
+
+.event-date-meta h2 a:hover {
+	color: #3a3a3a;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
 }
 
 .event-type-meta {
@@ -26,7 +40,8 @@
 
 .event-type-meta span.category {
 	font-size: 17px;
-	font-weight: bold;
+	font-family: 'Museo Fat';
+	color: #8b8b8b;
 }
 
 .event-place-meta {
@@ -69,7 +84,7 @@
 
 #event-info p {
 	font-family: "News Cycle","Arial Narrow Bold",sans-serif;
-	padding: 5px;
+	padding: 3px;
 	font-size: 17px;
 }
 

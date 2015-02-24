@@ -4,22 +4,21 @@
 		<p>Read the latest and popular news about museums across Indonesia</p>
 	</div>
 </header> -->
-<div class="box">
-	<div class="container">
-		<ol class="breadcrumb">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">News</a></li>
-			<li class="active">New Artifacts Faound at Singosari</li>
-		</ol>
-	</div>
+<div class="container box">
+	<!-- <ol class="breadcrumb">
+		<li><a href="#">Home</a></li>
+		<li><a href="<?php echo site_url(); ?>page/news">News</a></li>
+		<li class="active">New Artifacts Faound at Singosari</li>
+	</ol> -->
+	<p class="text-center" style="font-size: 17px;"><a href="<?php echo site_url(); ?>page/news">&larr;Back to News</a></p>
 </div>
 
 <!-- RIGHT -->
 <div class="container">
 	<!-- NEWS -->
 	<div class="row">
-		<div class="col-md-8 wrap-content">
-			<div class="row pad15">
+		<div class="col-md-8">
+			<div class="row">
 				<div class="col-md-12">
 					<h2>New Artifact Found at Singosari</h2>
 					<p class="bolder">Kamis, 24 December 2014 14:05</p>

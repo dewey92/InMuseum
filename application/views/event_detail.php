@@ -18,9 +18,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
+				<p class="text-center" style="font-size: 17px;"><a href="<?php echo site_url(); ?>page/events">&larr;Back to Events</a></p>
 				<div class="event-detail-header">
-					<h2>Saturday, 14 February 2015</h2>
-					<h1><a href="#">Train Prototype Workshop</a></h1>
+					<h2 class="text-primary">Saturday, 14 February 2015</h2>
+					<h1>Train Prototype Workshop</h1>
 				</div>
 				<figure class="event-detail-img">
 					<img src="<?php echo base_url(); ?>img/event/event_4.jpg" alt="" class="img-responsive center-block">

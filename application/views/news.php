@@ -1,6 +1,6 @@
 <header class="header-bg">
-	<div class="container">
-		<div class="header-bg-text">
+	<div class="header-bg-text">
+		<div class="container">
 			<h1>NEWS</h1>
 			<p>News about museums. Commentary and archival information about museums</p>
 		</div>
@@ -34,7 +34,7 @@
 								<img src="<?php echo base_url() ?>img/news/bule.jpg" class="img-responsive">
 							</a>
 						</div>
-						<div class="col-md-8" style="padding-left:0">
+						<div class="col-md-8">
 							<h4 class="bolder"><a href="<?php echo site_url(); ?>page/news/1">New Artifacts Found at Singosari</a></h4>
 							<p class="by-museum">by <a href="<?php echo site_url(); ?>page/profile/1">Museum Nasional</a> | 24 December 2014</p>
 							<p class="news-caption">

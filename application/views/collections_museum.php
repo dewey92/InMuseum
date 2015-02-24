@@ -1,6 +1,6 @@
-<header class="header-bg header-bg-cover">
-	<div class="container">
-		<div class="header-bg-text">
+<!-- <header class="header-bg header-bg-cover">
+	<div class="header-bg-text">
+		<div class="container">
 			<h1>COLLECTIONS</h1>
 			<p>The following collections are displayed according to the museums paricipating in the site</p>
 		</div>
@@ -15,11 +15,12 @@
 		</ol>
 	</div>
 </div>
-
+ -->
 <!-- RIGHT -->
 <div class="container box">
 	<div class="row">
 		<div class="col-md-12">
+			<p class="text-center" style="font-size: 17px;"><a href="<?php echo site_url(); ?>page/collections">&larr;Back to Collections</a></p>
 			<div class="head-title">
 				<h1>Collections :: <a tabindex="0" class="text-muted go-to-museum" data-toggle="popover" data-placement="right">Museum Nasional</a></h1>
 			</div>
@@ -32,7 +33,7 @@
 								<label class="sr-only" for="searchCollections">label</label>
 								<input type="text" class="form-control input-lg" id="searchCollections" placeholder="Search collections ..." aria-describedby="helpBlock" autofocus />
 								<span class="fa fa-lg fa-search form-control-feedback" aria-hidden="true"></span>
-								<span id="helpBlock" class="help-block">Start typing collection names, its museum, or cities</span>
+								<span id="helpBlock" class="help-block">Start typing collection names or keywords</span>
 							</div>
 						</form>
 					</div>
@@ -45,7 +46,7 @@
 									<li class="divider"></li>
 									<?php foreach($classifications as $row) : ?>
 										<li data-toggle="tooltip" data-placement="left" title="Description goes here">
-											<a href="#" title=""><?php echo $row->nama_kategori_koleksi . ' (' . rand(20,1000) . ')'; ?></a>
+											<a href="#" title=""><?php echo $row->nama_kategori_koleksi . ' (' . rand(20,13000) . ')'; ?></a>
 										</li>
 									<?php endforeach;?>
 								</ul>
@@ -69,7 +70,7 @@
 					</div>
 				</div>
 			</div>
-			<h2>38,721 results found</h2>
+			<h2>138,721 results found</h2>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row" id="masonry-grid">

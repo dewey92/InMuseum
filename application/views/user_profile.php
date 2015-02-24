@@ -67,8 +67,8 @@
 							<h4>
 								<a href="<?php echo site_url(); ?>page/blogs/1">Visiting Transportation Museum</a>
 								<div class="pull-right">
-									<button class="btn btn-success"><span class="fa fa-fw fa-edit"></span>&nbsp;&nbsp;edit</button>
-									<button class="btn btn-warning"><span class="fa fa-fw fa-trash-o"></span>&nbsp;&nbsp;delete</button>
+									<button class="btn btn-default"><span class="fa fa-fw fa-edit"></span>&nbsp;&nbsp;edit</button>
+									<button class="btn btn-default"><span class="fa fa-fw fa-trash-o"></span>&nbsp;&nbsp;delete</button>
 								</div>
 							</h4>
 							<p class="blog-item-info"><span class="fa fa-fw fa-calendar"></span> 12 Dec 2014</p>

@@ -1,6 +1,6 @@
 <header class="header-bg header-bg-cover">
-	<div class="container">
-		<div class="header-bg-text">
+	<div class="header-bg-text">
+		<div class="container">
 			<h1>MUSEUMS LIST</h1>
 			<p>Following is the list of museums currently available on the site</p>
 		</div>

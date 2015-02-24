@@ -143,8 +143,8 @@ input.form-mega:focus {
 	font-size: 80%;
 }
 
-.more-hr {
-	border-top: 5px solid #eee;
+#event-section .wrap-item-caption > h4 {
+	margin-bottom: 0;
 }
 
 .news-highlight > div {
