@@ -164,36 +164,9 @@
 				</form>
 				<hr>
 				<div class="list-group">
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
-					<a href="#" class="list-group-item">Museum Lorem ipsum.</a>
+					<?php foreach($daftar_museum as $row): ?>
+					<a href="#" class="list-group-item"><?php echo $row->nama_museum;?></a>
+					<?php endforeach; ?>
 				</div>
 			</div>
 			<div id="toggle-quick-list">
@@ -479,7 +452,7 @@
 
 			$container.imagesLoaded( function() {
 				$container.masonry();
-			})
+			});
 
 			$('.thumbnail a').click( function() {
 				var img = $(this).parent('.thumbnail').find('img');

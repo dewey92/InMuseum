@@ -1,3 +1,16 @@
+<style>
+	.search-category span:hover {
+		cursor: pointer;
+		text-decoration: underline;
+		color: #333;
+		-webkit-transition: all .5s ease-in-out;
+		   -moz-transition: all .5s ease-in-out;
+		    -ms-transition: all .5s ease-in-out;
+		     -o-transition: all .5s ease-in-out;
+		        transition: all .5s ease-in-out;
+	}
+</style>
+
 <div class="container">
 	<div class="row">
 		<div class="col-md-9">
@@ -17,7 +30,7 @@
 						</div>
 					</div>
 				</div>
-				<h4>SHOW: <span class="text-success">All</span> / <span class="text-muted">Museums</span> / <span class="text-muted">Events</span> / <span class="text-muted">Collections</span> / <span class="text-muted">News</span> / <span class="text-muted">Blog</span></h4>
+				<h4 class="search-category">SHOW: <span class="text-success">All</span> / <span class="text-muted">Museums</span> / <span class="text-muted">Events</span> / <span class="text-muted">Collections</span> / <span class="text-muted">News</span> / <span class="text-muted">Blog</span></h4>
 			</form>
 
 			<!-- RESULT IN MUSEUM -->

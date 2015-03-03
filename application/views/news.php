@@ -27,7 +27,7 @@
 
 				<?php for ($i=0; $i < 5; $i++) : ?>
 
-				<div class="main-news">
+				<article class="main-news">
 					<div class="row">
 						<div class="col-md-4">
 							<a href="<?php echo site_url(); ?>page/news/1">
@@ -44,7 +44,7 @@
 							</p>
 						</div>
 					</div>
-				</div>
+				</article>
 
 				<?php endfor; ?>
 

@@ -37,7 +37,7 @@
 								<label class="sr-only" for="searchMuseums">label</label>
 								<input type="text" class="form-control input-lg" id="searchMuseums" placeholder="Search museums ..." aria-describedby="helpBlock" autofocus />
 								<span class="fa fa-lg fa-search form-control-feedback" aria-hidden="true"></span>
-								<span id="helpBlock" class="help-block">Start typing museum names, types, or cities</span>
+								<span id="helpBlock" class="help-block">Start typing <strong>museum names, types, or cities</strong></span>
 							</div>
 						</form>
 					</div>

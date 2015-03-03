@@ -44,7 +44,7 @@
 										<li><a href="#">All</a></li>
 										<li class="divider"></li>
 										<?php foreach($classifications as $row) : ?>
-											<li data-toggle="tooltip" data-placement="left" title="Description goes here">
+											<li data-toggle="tooltip" data-placement="left" title="<?php echo $row->deskripsi_kategori_koleksi; ?>">
 												<a href="#" title=""><?php echo $row->nama_kategori_koleksi . ' (' . rand(20,30000) . ')'; ?></a>
 											</li>
 										<?php endforeach;?>

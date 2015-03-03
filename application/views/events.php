@@ -34,7 +34,7 @@
 								<label class="sr-only" for="searchEvents">label</label>
 								<input type="text" class="form-control input-lg" id="searchEvents" placeholder="Search events ..." aria-describedby="helpBlock" autofocus />
 								<span class="fa fa-lg fa-search form-control-feedback" aria-hidden="true"></span>
-								<span id="helpBlock" class="help-block">Start typing event titles, cities, or museum names</span>
+								<span id="helpBlock" class="help-block">Start typing <strong>event titles, cities, or museum names</strong></span>
 							</div>
 						</form>
 					</div>

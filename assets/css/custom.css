@@ -200,7 +200,7 @@ li#search-box > a:hover {
 	right: 0;
 	bottom: 0;
 	/* height: 100%; */
-	padding: 30px;
+	padding: 30px 20px 30px 30px;
 	overflow-x: hidden;
 	overflow: auto;
 	-webkit-box-sizing: border-box;
@@ -211,6 +211,7 @@ li#search-box > a:hover {
 #quick-list #wrapper-quick-list a.list-group-item {
 	color: inherit;
 	transition: all .5s ease-in-out;
+	font-size: 13px;
 }
 
 #quick-list #wrapper-quick-list a.list-group-item:hover {

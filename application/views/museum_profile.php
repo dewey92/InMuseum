@@ -236,7 +236,7 @@
 								<span class="score-stars-active"></span>
 								<span class="score-stars-active"></span>
 							</div>
-							<span>The guides for foreigners possess fluent English speaking skill. Helped me a lot</span>
+							<span>Each guide for foreigners possesses a very fluent English speaking skill. Helped me a lot</span>
 						</p>
 					</div>
 				</div>
@@ -247,7 +247,7 @@
 						</a>
 					</div>
 					<div class="media-body" style="padding-left: 10px">
-						<h4 class="media-heading" style="margin:0">Haw Faruqi</h4>
+						<h4 class="media-heading" style="margin:0">Haq Faruqi</h4>
 						<p class="text-muted">4 months ago</p>
 						<p>
 							<div class="score">
